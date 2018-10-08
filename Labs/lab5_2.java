@@ -14,7 +14,7 @@ public class lab5_2 {
 	}
 	public static double mean(double[] s) {
 		double sum = 0; 
-		for(int i = 0; i < 10; i++) {
+		for(int i = 0; i < 10; i++) { // JA: Why only 10?
 			sum += s[i];	
 		}
 		double mean = sum / 10;

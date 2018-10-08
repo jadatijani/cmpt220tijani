@@ -35,6 +35,7 @@ public class lab5_3 {
 	               }
 	            }
 	         //Initiate loop to show letter grade for each input 
+			 // JA: This was not neccessary. You had to sort the arrays.
 	            for(int i = 0; i < students; i++)               
 	            {
 	               //Print corresponding grades and letter grades 
