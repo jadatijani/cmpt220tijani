@@ -37,6 +37,7 @@ public class Circle {
 	}
 	
 	boolean contains(Circle circle) {
+		// JA: Distance is square root of this
 		double other = (circle.x - x) * (circle.x - x) + (circle.y - y) * (circle.y - y);
 		if(other < radius * radius) 
 			return true;
