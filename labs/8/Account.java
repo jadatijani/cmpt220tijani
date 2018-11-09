@@ -48,6 +48,7 @@ class Account {
 	}
 }
 
+// JA: Where do you check for the overdraft?
 class CheckingsAccount extends Account {
 	int overdraft = 500;
 	public String toString() {

@@ -2,7 +2,7 @@ package lab8;
 import java.util.ArrayList; 
 public class Course { 
 	private String courseName; 
-	private ArrayList students = new ArrayList(); 
+	private ArrayList<String> students = new ArrayList<>(); 
 	private int numberOfStudents; 
 	public Course(String courseName) { 
 		this.courseName=courseName; 
@@ -10,7 +10,7 @@ public class Course {
 	public void addStudent(String student) { 
 		students.add(student); numberOfStudents++; 
 	} 
-	public ArrayList getStudents() { 
+	public ArrayList<String> getStudents() { 
 		return students; 
 	} 
 	public int getNumberOfStudents() { 
