@@ -35,6 +35,8 @@ public class Lab9_4 {
 		newoutput.close();
 		if(overriteFile.exists()) 
 			overriteFile.delete();
+		// JA: As a last step, you had to delete the input file and rename the 
+		// output file to the input.
 	}
 }
 
